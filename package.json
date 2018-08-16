@@ -1,0 +1,35 @@
+{
+  "isMKApp": true,
+  "name": "mk-sys-home",
+  "description": "mk-sys-home",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "",
+  "keywords": [
+    "mk",
+    "monkey king",
+    "react",
+    "redux",
+    "mk-js",
+    "mk-command",
+    "mk-sys-home"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whatsmk/mk-sys-home.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whatsmk/mk-sys-home/issues"
+  },
+  "homepage": "https://github.com/whatsmk/mk-sys-home#readme",
+  "scripts": {
+    "start": "mk start",
+    "build": "mk build",
+    "pkg": "mk pkg"
+  },
+  "dependencies": {
+    "md5": "*",
+    "mk-command": "*",
+    "mk-sdk": "*"
+  }
+}
